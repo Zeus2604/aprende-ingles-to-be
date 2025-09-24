@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lección 4 - Ejercicios To Be</title>
+</head>
+<body>
+  <h1>Lección 4: Ejercicios con el verbo TO BE</h1>
+
+  <p>Completa las frases con la forma correcta de TO BE:</p>
+
+  <ol>
+    <li>I ___ happy. → <input type="text" id="q1"></li>
+    <li>You ___ a student. → <input type="text" id="q2"></li>
+    <li>He ___ my brother. → <input type="text" id="q3"></li>
+  </ol>
+
+  <button onclick="checkAnswers()">Comprobar respuestas</button>
+
+  <p id="resultado"></p>
+
+  <a href="leccion3.html">⬅️ Volver a la lección 3</a>
+
+  <script>
+    function checkAnswers() {
+      let r = "";
+      if(document.getElementById("q1").value.toLowerCase() === "am") r += "1✅ "; else r += "1❌ ";
+      if(document.getElementById("q2").value.toLowerCase() === "are") r += "2✅ "; else r += "2❌ ";
+      if(document.getElementById("q3").value.toLowerCase() === "is") r += "3✅ "; else r += "3❌ ";
+      document.getElementById("resultado").innerText = r;
+    }
+  </script>
+</body>
+</html>
