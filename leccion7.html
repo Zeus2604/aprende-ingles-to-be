@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lección 7 - Mini-test To Be</title>
+</head>
+<body>
+  <h1>Lección 7: Mini-test final</h1>
+
+  <p>Completa las frases con la forma correcta del verbo TO BE:</p>
+
+  <ol>
+    <li>I ___ happy. → <input type="text" id="q1"></li>
+    <li>You ___ a student. → <input type="text" id="q2"></li>
+    <li>He ___ my brother. → <input type="text" id="q3"></li>
+    <li>She ___ not at home. → <input type="text" id="q4"></li>
+    <li>Are we friends? → <input type="text" id="q5"></li>
+  </ol>
+
+  <button onclick="calcularPuntaje()">Comprobar puntaje</button>
+
+  <p id="resultado"></p>
+
+  <a href="leccion6.html">⬅️ Volver a la lección 6</a>
+
+  <script>
+    function calcularPuntaje() {
+      let puntaje = 0;
+      if(document.getElementById("q1").value.toLowerCase() === "am") puntaje++;
+      if(document.getElementById("q2").value.toLowerCase() === "are") puntaje++;
+      if(document.getElementById("q3").value.toLowerCase() === "is") puntaje++;
+      if(document.getElementById("q4").value.toLowerCase() === "is not") puntaje++;
+      if(document.getElementById("q5").value.toLowerCase() === "are") puntaje++;
+      document.getElementById("resultado").innerText = ¡Tu resultado: ${puntaje} de 5!;
+    }
+  </script>
+</body>
+</html>
