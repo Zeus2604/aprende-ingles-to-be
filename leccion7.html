@@ -25,13 +25,16 @@
 
   <script>
     function calcularPuntaje() {
-      let puntaje = 0;
+      var puntaje = 0;
+
       if(document.getElementById("q1").value.toLowerCase() === "am") puntaje++;
       if(document.getElementById("q2").value.toLowerCase() === "are") puntaje++;
       if(document.getElementById("q3").value.toLowerCase() === "is") puntaje++;
       if(document.getElementById("q4").value.toLowerCase() === "is not") puntaje++;
       if(document.getElementById("q5").value.toLowerCase() === "are") puntaje++;
-      document.getElementById("resultado").innerText = ¡Tu resultado: ${puntaje} de 5!;
+
+      var resultado = document.getElementById("resultado");
+      resultado.innerHTML = "¡Tu resultado: " + puntaje + " de 5!";
     }
   </script>
 </body>
