@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
     "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
-    "payload": "eyJkb21haW4iOiJ6ZXVzMjYwNC5naXRodWIuaW8ifQ==",
-    "signature": "AÚN_TU_SIGNATURE_A_GENERAR"
+    "payload": "eyJkb21haW4iOiJ6ZXVzMjYwNC5naXRodWIuaW8ifQ",
+    "signature": "MHg..." 
   },
   "miniapp": {
     "frame": {
@@ -27,5 +27,8 @@
       "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/imagenes/imagenes/imagenes/photo_2025-09-24%2012.18.19.jpeg?raw=true",
       "noindex": false
     }
+  },
+  "baseBuilder": {
+    "allowedAddresses": ["0xFdcC8561b3E9ffBeb9C04f5971a05Ca73d418C5B"]
   }
 }
