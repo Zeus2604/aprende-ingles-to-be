@@ -21,6 +21,7 @@
       padding: 40px;
       border-radius: 20px;
       box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      max-width: 800px;
     }
 
     h1 {
@@ -53,13 +54,28 @@
       transform: translateY(-3px);
       box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     }
+
+    .portada-img {
+      width: 100%;
+      max-width: 700px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <!-- Imagen de portada -->
+    <img src="https://github.com/Zeus2604/aprende-ingles-to-be/blob/main/imagenes/imagenes/imagenes/photo_2025-09-24%2012.18.19.jpeg?raw=true" 
+         alt="Portada Aprende Inglés To Be" 
+         class="portada-img">
+
     <h1>Zeus Aprende Inglés</h1>
     <p>¡Comienza a aprender inglés desde cero, empezando con el verbo <strong>TO BE</strong>!</p>
-   <a href="leccion1.html">👉 Empezar lección 1</a>
+    
+    <!-- Botón para iniciar la lección 1 -->
+    <a href="leccion1.html" class="btn">👉 Empezar lección 1</a>
   </div>
 </body>
 </html>
