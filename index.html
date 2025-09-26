@@ -6,7 +6,7 @@
 
   <!-- Metadata para Base Mini-App -->
   <meta name="fc:miniapp" content='{
-    "version":"next",
+    "version":"1",
     "imageUrl":"https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
     "button":{
         "title":"Play Now",
@@ -92,5 +92,20 @@
     <!-- Botón para iniciar la lección 1 -->
     <a href="leccion1.html" class="btn">👉 Empezar lección 1</a>
   </div>
+
+  <!-- Importar SDK de Farcaster y llamar a sdk.actions.ready() -->
+  <script type="module">
+    import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk';
+
+    // Llamamos ready cuando la app esté completamente cargada
+    window.addEventListener('load', async () => {
+      try {
+        await sdk.actions.ready();
+        console.log("Miniapp lista para Base ✅");
+      } catch (err) {
+        console.error("Error al inicializar miniapp:", err);
+      }
+    });
+  </script>
 </body>
 </html>
