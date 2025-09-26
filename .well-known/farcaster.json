@@ -32,7 +32,8 @@
       "ogTitle": "Zeus Aprende Inglés",
       "ogDescription": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
       "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-      "noindex": false
+      "noindex": false,
+      "deepLinkUrl": "https://zeus2604.github.io/aprende-ingles-to-be/"
     }
   },
   "baseBuilder": {
