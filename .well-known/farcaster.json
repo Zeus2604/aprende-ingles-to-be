@@ -1,30 +1,30 @@
 {
-  "version": "1",
   "accountAssociation": {
-    "header": "eyJmaWQiOjEzNTA0NjMsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhiYkQ3OUZBRWFFN0VkRTUwOURjN0E4MjNCNjNhNEIwYTVjNkQ4NTlmIn0",
-    "payload": "eyJkb21haW4iOiJ6ZXVzMjYwNC5naXRodWIuaW8ifQ",
-    "signature": "zH4aQlMg8CY/TBZz1Qvz1Olf8hVD4s5dw30lhaJRhYcM8z8p2+P6ZqX/SSkes6c2wqP77lbCv6VHxMlEt2NHWBw="
+    "header": "...",
+    "payload": "...",
+    "signature": "..."
   },
   "miniapp": {
-    "version": "1",
+    "version": "1.0.0",
     "name": "Zeus Aprende Inglés",
+    "homeUrl": "https://zeus2604.github.io/aprende-ingles-to-be/",
+    "iconUrl": "https://zeus2604.github.io/aprende-ingles-to-be/imagenes/imagenes/imagenes/photo_2025-09-24 12.18.19.jpeg?raw=true",
+    "splashImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/imagenes/imagenes/imagenes/photo_2025-09-24 12.18.19.jpeg?raw=true",
+    "splashBackgroundColor": "#1e3c72",
+    "webhookUrl": "",
     "subtitle": "Aprende inglés desde cero",
     "description": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
-    "iconUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-    "splashImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-    "splashBackgroundColor": "#1e3c72",
-    "homeUrl": "https://zeus2604.github.io/aprende-ingles-to-be/",
-    "webhookUrl": "",
     "screenshotUrls": [
-      "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
+      "https://zeus2604.github.io/aprende-ingles-to-be/imagenes/imagenes/imagenes/photo_2025-09-24 12.18.19.jpeg?raw=true"
     ],
     "primaryCategory": "education",
     "tags": ["ingles", "aprendizaje", "miniapp", "educacion"],
-    "heroImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
+    "heroImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/imagenes/imagenes/imagenes/photo_2025-09-24 12.18.19.jpeg?raw=true",
     "tagline": "Aprende inglés rápido y fácil",
     "ogTitle": "Zeus Aprende Inglés",
     "ogDescription": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
-    "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
+    "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/imagenes/imagenes/imagenes/photo_2025-09-24 12.18.19.jpeg?raw=true",
+    "noindex": false
   },
   "baseBuilder": {
     "allowedAddresses": ["0xFdcC8561b3E9ffBeb9C04f5971a05Ca73d418C5B"]
