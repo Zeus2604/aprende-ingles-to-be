@@ -1,40 +1,30 @@
 {
   "version": "1",
   "accountAssociation": {
-    "header": "eyJmaWQiOjEzNTA0NjMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhhNjJGMUZlNUQyNzZhYkY0MzA0OWZiOEFhMEU4RmU2NjQ5OTdEQkY5In0",
+    "header": "eyJmaWQiOjEzNTA0NjMsInR5cGUiOiJhdXJoIiwia2V5IjoiMHhiYkQ3OUZBRWFFN0VkRTUwOURjN0E4MjNCNjNhNEIwYTVjNkQ4NTlmIn0",
     "payload": "eyJkb21haW4iOiJ6ZXVzMjYwNC5naXRodWIuaW8ifQ",
-    "signature": "MHg5NjQwMzA3MDM0ZDg0ZDRkNmQ0YjY5YThkNGZiNzFjN2Q5YmZhNGIyOWNkMWVkOGVhMjU2YmEzZDJjMDJkMWIyMDYzY2VlMzEzYjUzNzkzZWUwMmQyYWQyNWU5ZTgzYjBjMmVmYmNjMzZhYTQ3MjYxNTE4OWZiYTQxNGMzMzM1ZDFj"
+    "signature": "zH4aQlMg8CY/TBZz1Qvz1Olf8hVD4s5dw30lhaJRhYcM8z8p2+P6ZqX/SSkes6c2wqP77lbCv6VHxMlEt2NHWBw="
   },
   "miniapp": {
     "version": "1",
     "name": "Zeus Aprende Inglés",
+    "subtitle": "Aprende inglés desde cero",
+    "description": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
     "iconUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
+    "splashImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
+    "splashBackgroundColor": "#1e3c72",
     "homeUrl": "https://zeus2604.github.io/aprende-ingles-to-be/",
-    "buttonTitle": "Play Now",
-    "castShareUrl": "https://warpcast.com/~/compose?text=Check+out+this+app",
-    "frame": {
-      "version": "1.0.0",
-      "name": "Zeus Aprende Inglés",
-      "homeUrl": "https://zeus2604.github.io/aprende-ingles-to-be/",
-      "iconUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-      "splashImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-      "splashBackgroundColor": "#1e3c72",
-      "webhookUrl": "",
-      "subtitle": "Aprende inglés desde cero",
-      "description": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
-      "screenshotUrls": [
-        "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
-      ],
-      "primaryCategory": "education",
-      "tags": ["ingles", "aprendizaje", "miniapp", "educacion"],
-      "heroImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-      "tagline": "Aprende inglés rápido y fácil",
-      "ogTitle": "Zeus Aprende Inglés",
-      "ogDescription": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
-      "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-      "noindex": false,
-      "deepLinkUrl": "https://zeus2604.github.io/aprende-ingles-to-be/"
-    }
+    "webhookUrl": "",
+    "screenshotUrls": [
+      "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
+    ],
+    "primaryCategory": "education",
+    "tags": ["ingles", "aprendizaje", "miniapp", "educacion"],
+    "heroImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
+    "tagline": "Aprende inglés rápido y fácil",
+    "ogTitle": "Zeus Aprende Inglés",
+    "ogDescription": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
+    "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
   },
   "baseBuilder": {
     "allowedAddresses": ["0xFdcC8561b3E9ffBeb9C04f5971a05Ca73d418C5B"]
