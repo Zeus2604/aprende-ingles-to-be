@@ -1,30 +1,30 @@
 {
   "version": "1",
   "accountAssociation": {
-    "header": "eyJmaWQiOjEzNTA0NjMsInR5cGUiOiJhdXJoIiwia2V5IjoiMHhiYkQ3OUZBRWFFN0VkRTUwOURjN0E4MjNCNjNhNEIwYTVjNkQ4NTlmIn0",
-    "payload": "eyJkb21haW4iOiJ6ZXVzMjYwNC5naXRodWIuaW8ifQ",
-    "signature": "zH4aQlMg8CY/TBZz1Qvz1Olf8hVD4s5dw30lhaJRhYcM8z8p2+P6ZqX/SSkes6c2wqP77lbCv6VHxMlEt2NHWBw="
+    "header": "PEGA_AQUI_EL_NUEVO_HEADER",
+    "payload": "PEGA_AQUI_EL_NUEVO_PAYLOAD",
+    "signature": "PEGA_AQUI_LA_NUEVA_SIGNATURE"
   },
   "miniapp": {
     "version": "1",
     "name": "Zeus Aprende Inglés",
     "subtitle": "Aprende inglés desde cero",
     "description": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
-    "iconUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
-    "splashImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
+    "iconUrl": "https://aprende-ingles-to-be.vercel.app/portada.jpg",
+    "splashImageUrl": "https://aprende-ingles-to-be.vercel.app/portada.jpg",
     "splashBackgroundColor": "#1e3c72",
-    "homeUrl": "https://zeus2604.github.io/aprende-ingles-to-be/",
+    "homeUrl": "https://aprende-ingles-to-be.vercel.app/",
     "webhookUrl": "",
     "screenshotUrls": [
-      "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
+      "https://aprende-ingles-to-be.vercel.app/portada.jpg"
     ],
     "primaryCategory": "education",
     "tags": ["ingles", "aprendizaje", "miniapp", "educacion"],
-    "heroImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg",
+    "heroImageUrl": "https://aprende-ingles-to-be.vercel.app/portada.jpg",
     "tagline": "Aprende inglés rápido y fácil",
     "ogTitle": "Zeus Aprende Inglés",
     "ogDescription": "Mini app para aprender inglés desde cero, enfocada en el verbo TO BE.",
-    "ogImageUrl": "https://zeus2604.github.io/aprende-ingles-to-be/portada.jpg"
+    "ogImageUrl": "https://aprende-ingles-to-be.vercel.app/portada.jpg"
   },
   "baseBuilder": {
     "allowedAddresses": ["0xFdcC8561b3E9ffBeb9C04f5971a05Ca73d418C5B"]
